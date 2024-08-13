@@ -19,6 +19,10 @@ spring:
       enabled: false
 
 
+jwt:
+  key: eyJzdWIiOiJzaW1wbGVHYW1lIiwibmFtZSI6ImppaHVuIiwiaWF0IjoxNTE2MjM5MDIyfQ
+
+
 #  [??]
 #- ???? ??
 #  docker run --name jihun-mysql -e MYSQL_ROOT_PASSWORD=yourpassword -p 3307:3306 -d mysql:latest
